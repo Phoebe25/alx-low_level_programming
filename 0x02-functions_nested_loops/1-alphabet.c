@@ -4,36 +4,32 @@
 
 /**
  *
- *  * main - check the code
+ * * print_alphabet - Print the alphabet in lowercase.
  *
- *   *
+ * *
  *
- *    * Return: Always 0.
+ * * Return: void.
  *
- *     */
+ * */
 
 
 
-int main(void)
+void print_alphabet(void)
 
 {
 
-		int 1 = 'a';
+		int i;
 
 
 
-			while (1 <= 'z')
+			for (i = 97; i < 123; i++)
 
-					{
+						{
 
-								_putchar(1);
-
-										1 += 1;
+									_putchar(i);
 
 											}
 
-				print_alphabet();
-
-					return (0);
+					_putchar('\n');
 
 }
